@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("https://farm6.staticflickr.com/5695/22447126166_2db1545ed4_b.jpg");
+  background-size: cover;
+  background-position: center;
+  /*position: fixed;*/
+}
+.header a {
+text-decoration: none;
+font-size: 30px;
+color: white;
+}
+.header a:hover{
+  color: orange;
+}
+.home_nav{
+  list-style: none;
+  display: flex;
+  margin-top: 20px;
+}
+.home_nav li a{
+  color: white;
+  font-family: "Papyrus";
+  font-size: 18px;
+  padding: 5px 20px;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+.home_nav li a:hover{
+  border: 1px solid orange;
+}
+h1{
+  color: #444444;
+  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  background: #283593;
+  width: 100%;
+  padding: 4px 0;
+  
+}
+.footer{
+      bottom:0;
+      width:100%;  
+      background: #283593;
+      padding: 20px 0;
+ 
+}
+.footer-content{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 0px;
+  align-content: center;
+
+}
+.footer-content li a{
+  color: white;
+  text-decoration: none;
+
+}
+.footer-content li a:hover{
+  color:orange;
+}
+.sidebar{
+  font-size: 20px;
+
+
+}
+.side {
+      /*height: 100%;*/
+      width: 250px;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      padding-top: 20px;
+
+}
+.side a{
+      padding: 5px 5px 5px 5px;
+      text-decoration: none;
+      font-size: 15px;
+      color: #818181;
+      display: block;
+      margin-top: 10px;
+}
+.side a:hover{
+  color: white;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  transition: 0.3s;
+  width: 80%;
+  background: rgba(255,255,255,0.5);
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.card:hover{
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+}
+.section{
+  display: flex;
+}
+.section1{
+  display: flex;
+  margin-right: 10px;
+}
+.container1{
+  margin-top: 20px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.section2{
+  display: flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
